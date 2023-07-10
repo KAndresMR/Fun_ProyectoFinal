@@ -1,2 +1,2 @@
 # Fun_ProyectoFinal
-Proyecto Final(Sistema Transaccional) de una Farmacia
+Proyecto Final de la asignatura de Fundamentos de Base de Datos un Sistema Transaccional de una Farmacia.
