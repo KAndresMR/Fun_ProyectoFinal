@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A95A4E7E-D7EC-78FB-2700-FC4A4BD4B432" name="FAR_NOTA_VENTAS">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 21:46:21 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="not_id" id="978871FB-D497-F91D-27F9-62766D23446C">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 21:46:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero de identificacion de la entidad]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="not_numero_factura" id="D3FE8473-0EB5-C373-D5F3-7C64185182AB">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 21:47:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el numero de la factura.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="not_fecha_factura" id="D2E98298-E73B-F6DB-54D4-5A9D15C8902E">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 21:48:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra la fecha de la factura.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="not_valor_total" id="C76FBE7F-9D00-D314-E27E-DFC74BCB4F5F">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-07-08 23:29:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor total de la nota de venta]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="not_cantidad_producto" id="55F002DC-8DA4-9F09-214F-F839E430ABCE">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-07-08 23:31:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cantidad de productos adquiridos]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prov_id" id="457DA038-FCAF-E1D7-20E2-F8F4EF41D13D">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 22:09:15 UTC</createdTime>
+<generatorID>9319829E-5BE0-C907-D909-FB864FC891FF</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<referedAttribute>7A21262C-DE61-46BF-8B00-60F136EA150D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_id" id="128DEE34-637C-5679-3259-7F9632CE7237">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-07-09 00:08:53 UTC</createdTime>
+<generatorID>AB453436-937A-B302-4A79-56A65DE17169</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<referedAttribute>745BABA1-946F-161F-B4B5-4D28AB0A3070</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ABAAC279-3093-ACED-6E75-885298FC6DC6" name="FAR_CABECERA_PROVEEDORES PK">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 21:47:05 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>978871FB-D497-F91D-27F9-62766D23446C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

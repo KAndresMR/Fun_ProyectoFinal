@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="956292F3-204A-5343-A2AF-76B3E86D66DC" name="FAR_CATEGORIAS">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:32:36 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cat_id" id="A5AC3EF4-5E50-5450-2986-BB58B7A0C163">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:32:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico de la entidad.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cat_descripcion" id="755F2BF9-7178-F435-6F95-C1469686B20C">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 20:44:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripcion de la categoria.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cat_nombre" id="72DD1B99-2A41-EA7E-C5CB-F11DA8AB1DCE">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:33:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la categoria.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="581D18E4-0DE4-B228-B2FF-634C24EAC4E8" name="FAR_CATEGORIAS PK">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:33:37 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A5AC3EF4-5E50-5450-2986-BB58B7A0C163</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

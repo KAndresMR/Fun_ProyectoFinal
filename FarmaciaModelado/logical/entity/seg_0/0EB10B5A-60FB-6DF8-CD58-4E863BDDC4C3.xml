@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0EB10B5A-60FB-6DF8-CD58-4E863BDDC4C3" name="FAR_PRODUCTOS">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:34:46 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pro_id" id="745BABA1-946F-161F-B4B5-4D28AB0A3070">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:34:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico de la entidad.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_codigo_barra" id="22A0D7A8-C0A9-1BEF-2F14-205ED2805000">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:35:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo de barras del producto]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_nombre" id="AE80E1E8-0476-8C81-B7DE-E2AC1DC6346D">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:35:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del producto.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_precio" id="6BB0A2D9-6F5E-CC85-95D1-71D978B3F77A">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:35:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Precio unitario del producto.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_stock" id="D53D5F20-D60B-BD97-CFB7-63953B729598">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:35:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cantidad de producto disponibles.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_IVA" id="2DD922CD-B7FD-7C40-8FCF-CF850A579A5F">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 20:51:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Si el producto tiene IVA(S)
+Si el producto no tiene IVA (N)]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cat_id" id="C07A0AC8-065F-E602-C974-ADF3E0514405">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 21:53:56 UTC</createdTime>
+<generatorID>A6085494-B3ED-FF79-539C-5ED3A2DCA61F</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<referedAttribute>A5AC3EF4-5E50-5450-2986-BB58B7A0C163</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="847D25C3-CAB8-AB7A-D8CF-9E5787CEA973" name="FAR_PRODUCTOS PK">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:35:05 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>745BABA1-946F-161F-B4B5-4D28AB0A3070</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

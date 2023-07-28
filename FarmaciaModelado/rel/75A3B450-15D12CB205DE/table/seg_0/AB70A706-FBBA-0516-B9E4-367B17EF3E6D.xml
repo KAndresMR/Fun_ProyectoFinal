@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB70A706-FBBA-0516-B9E4-367B17EF3E6D" name="FAR_NOTA_VENTAS">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>A95A4E7E-D7EC-78FB-2700-FC4A4BD4B432</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="not_id" id="FDC1E800-2745-6940-A49C-8DD3E3424A5D">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero de identificacion de la entidad]]></commentInRDBMS>
+<generatorID>978871FB-D497-F91D-27F9-62766D23446C</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="not_numero_factura" id="503A3E9A-1D7B-B9AC-F77A-E49E82699B6D">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el numero de la factura.]]></commentInRDBMS>
+<generatorID>D3FE8473-0EB5-C373-D5F3-7C64185182AB</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="not_fecha_factura" id="B242C333-C4AC-5E2A-10C4-CC5C9C2FDE03">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra la fecha de la factura.]]></commentInRDBMS>
+<generatorID>D2E98298-E73B-F6DB-54D4-5A9D15C8902E</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="not_valor_total" id="744DE51D-CC54-94D8-9805-AC610760C6BB">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor total de la nota de venta]]></commentInRDBMS>
+<generatorID>C76FBE7F-9D00-D314-E27E-DFC74BCB4F5F</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="not_cantidad_producto" id="0618DD1E-6EAD-A390-1DD1-FC62C38FDE25">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cantidad de productos adquiridos]]></commentInRDBMS>
+<generatorID>55F002DC-8DA4-9F09-214F-F839E430ABCE</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAR_PROVEEDORES_prov_id" id="E7A6A95D-ACE8-A267-2F84-86670BA6D26B">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>457DA038-FCAF-E1D7-20E2-F8F4EF41D13D</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4651C37-4A1F-0C13-C425-5450EC4A1CBA" referredColumn="CFC74C25-1B7D-0EDD-4185-262CBA096CAB"/>
+</associations>
+</Column>
+<Column name="FAR_PRODUCTOS_pro_id" id="5428B6D6-2253-12E3-B28D-8CEEAAD83D5A">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>128DEE34-637C-5679-3259-7F9632CE7237</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03D4A5BC-40BA-38CA-F96E-C7362ED75476" referredColumn="4DC94453-6E72-4415-ECEC-C8FD0DE6D638"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67C5055B-15C4-4680-12F4-1F6A2C6D324D" name="FAR_NOTA_VENTAS_PK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>ABAAC279-3093-ACED-6E75-885298FC6DC6</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDC1E800-2745-6940-A49C-8DD3E3424A5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="375047D6-99AE-D84B-2E44-048BB0CE035E" name="FAR_NOTA_VENTAS_FAR_PRODUCTOS_FK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>AB453436-937A-B302-4A79-56A65DE17169</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5428B6D6-2253-12E3-B28D-8CEEAAD83D5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8092AAF-62C3-D6AA-824D-0C40A69430FE" name="FAR_NOTA_VENTAS_FAR_PROVEEDORES_FK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>9319829E-5BE0-C907-D909-FB864FC891FF</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7A6A95D-ACE8-A267-2F84-86670BA6D26B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

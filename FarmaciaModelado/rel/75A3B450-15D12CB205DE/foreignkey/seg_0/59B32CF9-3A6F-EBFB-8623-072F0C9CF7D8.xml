@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="59B32CF9-3A6F-EBFB-8623-072F0C9CF7D8" containerWithKeyObject="A64D614B-44A4-9D3E-49D1-15A7BB4ECA23" localFKIndex="BB4A8CB0-E3A2-2197-B954-06D7CB619263" name="FAR_CABECERA_FACTURA_FAR_USUARIOS_FK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>777CB6B6-B73B-28C1-9B63-0F53A487236D</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<referredTableLongName>FAR_USUARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CE1D049C-729B-F890-728C-EF94B1260C6A</referredTableID>
+<keyObject>F0D0410D-5A66-F4D7-DE42-BE281A5D3BD8</keyObject>
+<referredKeyID>F0D0410D-5A66-F4D7-DE42-BE281A5D3BD8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>usu_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="per_fac_fk" directorySegmentName="seg_0" id="B777CE1D-8AA6-8F07-BEAA-F12C3ED82731">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 22:07:59 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<sourcePk>E9F2FD4A-8FD4-C837-E049-0BE6408320CA</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B9064C5D-1D80-989A-9053-D5561EF55727</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4DF415A3-3A5F-BDC3-718D-4C181F381C85</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

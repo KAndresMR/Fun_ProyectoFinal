@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prov_cab_fk" directorySegmentName="seg_0" id="9319829E-5BE0-C907-D909-FB864FC891FF">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 22:09:15 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<sourcePk>DC3D177F-A8FC-A115-B29A-7FDF963FF702</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9F1E010B-B160-8535-765B-A00FC642BA61</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A95A4E7E-D7EC-78FB-2700-FC4A4BD4B432</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

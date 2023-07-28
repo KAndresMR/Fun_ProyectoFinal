@@ -1,0 +1,126 @@
+--GRANT SYSDBA TO YCDAN;
+
+-- Create sequences for primary key columns in the tables
+
+----------------------------Categorias---------------------------
+-- Reset the sequence to a new value (e.g., 1 in this example)
+
+
+INSERT INTO far_categorias (cat_id, cat_descripcion, cat_nombre)
+VALUES (seq_cat_id.NEXTVAL, 'Producto alimenticio que está diseñado para complementar la dieta de una persona o animal, proporcionando nutrientes adicionales que pueden 
+estar ausentes o en cantidades insuficientes en la dieta regular.', 'ALIMENTO COMPLEMENTARIO');
+
+INSERT INTO far_categorias (cat_id, cat_descripcion, cat_nombre)
+VALUES (seq_cat_id.NEXTVAL, 'Productos relacionados con la alimentación y el consumo de bebidas.', 'ALIMENTOS Y BEBIDAS');
+
+INSERT INTO far_categorias (cat_id, cat_descripcion, cat_nombre)
+VALUES (seq_cat_id.NEXTVAL, 'aliviar molestias relacionadas con problemas musculares y articulares, como dolores musculares y articulares, 
+así como para reducir malestares causados por torceduras, esguinces, contusiones y otras lesiones similares.', 'ANALGESICO TOPICO');
+
+----------------------------------------------PRODUCTOS-------------------------------------------------------
+
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.NEXTVAL, 880600900279, 'VITACAP G', 15.60, 10, 'S', 1);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 987654321098, 'COMPOTA MANZANA GERBER 113G ', 0.99, 7, 'N', 2);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 150105864051, 'COMPOTA BANANA GERBER 113G ', 0.99, 7, 'N', 2);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 150108640512, 'COMPOTA PERA GERBER 113G', 0.98, 7, 'S', 2);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 750168640512, 'COMPOTA FRUTAS MIXTAS GERBER 113G', 0.99, 10, 'S', 2);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 950168640512, 'COMPOTA DURAZNO GERBER 113G', 0.99, 9, 'S', 2);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 881128640512, 'COMPOTA PERA BANANA BABY PAAP X113G', 0.88, 0, 'S', 2);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 761128640512, 'COMPOTA MANZANA ZANAHORIA BABY PAAP X113G', 0.88, 5, 'S', 2);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 861128640512, 'COMPOTA MANZANA BABY PAAP X113G', 0.88, 0, 'S', 2);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 501098640512, 'VOLTAREN EMULGEL 60G TRIPLE ACCION', 98.214, 0, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 701098640512, 'VOLTAREN EMULGEL 30G TRIPLE ACCION', 5.89, 12, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES(seq_pro_id.nextval, 486268640512, 'VOLTAREN AEROSOL 60G/85ML TRIPLE ACCION', 11.72, 0, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES(seq_pro_id.nextval, 786138640512, 'GEL HELADO PANALGESIC 180G MENTOL + ALCANFORT', 3.53, 5, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES(seq_pro_id.nextval, 386138620512, 'GEL HELADO PANALGESIC 60G MENTOL + ALCANFORT', 1.79, 21, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES(seq_pro_id.nextval, 286108640512, 'LINIMENTO OLIMPICO 8G', 29.464, 7, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES(seq_pro_id.nextval, 186100640512, 'GEL ANALGESICO BIOSAVIA ANTI-INFLAMATORIO 75G', 8.57, 3, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 286103142006, 'LINIMENTO OLIMPICO 8G', 29.464, 7, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 786100216937, 'GEL ANALGESICO BIOSAVIA ANTI-INFLAMATORIO 75G', 8.57, 3, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 586217000320, 'POMADA ALCANFORADA BELLA 12G PARACELSO', 0.44, 11, 'N', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 886187800753, 'UNGUENTO YODO SALIL 12G', 1.16, 7, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 986210650230, 'MENTOL CHINO FORTE 60G', 3.11, 12, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 786210000689, 'POMADA GUAYACOL 12G', 0.36, 9, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 770203459016, 'PARCHE TERMICO LEON HANSAPLAST 12X18CM', 3.44, 5, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 880610002379, 'KEFENTECH-L PARCHE 10X7CM', 4.51, 6, 'S', 3);
+INSERT INTO far_productos (pro_id, pro_codigo_barra, pro_nombre, pro_precio, pro_stock, pro_iva, far_categorias_cat_id)
+VALUES (seq_pro_id.nextval, 590241442770, 'UNGUENTO CORPORAL BIOFORCE 45G', 21.43, 7, 'S', 3);
+
+-------------------------------PROVEEDORES-----------------------------
+INSERT INTO far_proveedores (prov_id, prov_nombre, prov_ruc)
+VALUES (seq_prov_id.NEXTVAL, 'ALIMENTOS SANIMEX', 12045896785);
+
+INSERT INTO far_proveedores (prov_id, prov_nombre, prov_ruc)
+VALUES (seq_prov_id.NEXTVAL, 'STERN VITAMIN', 39061789210);
+
+INSERT INTO far_proveedores (prov_id, prov_nombre, prov_ruc)
+VALUES (seq_prov_id.NEXTVAL, 'MEDLINE PLUS', 39178906210);
+
+
+--------------------------------CLIENTES--------------------------------
+INSERT INTO far_personas (per_id, per_cedula, per_nombre, per_apellido, per_direccion, per_telefono, per_correo, per_tipo, per_estado)
+VALUES (seq_per_id.NEXTVAL, '1234567890', 'John', 'Doe', '123 Main St', '123-456-7890', 'john.doe@example.com', 'c', 1);
+INSERT INTO far_personas (per_id, per_cedula, per_nombre, per_apellido, per_direccion, per_telefono, per_correo, per_tipo, per_estado)
+VALUES (seq_per_id.NEXTVAL, '1876543210', 'Jane', 'Smith', '456 Oak Ave', '987-654-3210', 'jane.smith@example.com', 'c', 1);
+INSERT INTO far_personas (per_id, per_cedula, per_nombre, per_apellido, per_direccion, per_telefono, per_correo, per_tipo, per_estado)
+VALUES (seq_per_id.NEXTVAL, '1567890123', 'Michael', 'Johnson', '789 Elm St', '456-789-0123', 'michael.johnson@example.com', 'c', 1);
+INSERT INTO far_personas (per_id, per_cedula, per_nombre, per_apellido, per_direccion, per_telefono, per_correo, per_tipo, per_estado)
+VALUES (seq_per_id.NEXTVAL, '1890123456', 'Emily', 'Williams', '567 Pine St', '789-012-3456', 'emily.williams@example.com', 'c', 1);
+INSERT INTO far_personas (per_id, per_cedula, per_nombre, per_apellido, per_direccion, per_telefono, per_correo, per_tipo, per_estado)
+VALUES (seq_per_id.NEXTVAL, '1678901234', 'David', 'Brown', '901 Maple Ave', '567-890-1234', 'david.brown@example.com', 'c', 1);
+INSERT INTO far_personas (per_id, per_cedula, per_nombre, per_apellido, per_direccion, per_telefono, per_correo, per_tipo, per_estado)
+VALUES (seq_per_id.NEXTVAL, '1862009324', 'Benedict', 'Cumberbatch', '123 Baker St', '123-456-7890', 'benedict.cumberbatch@example.com', 'c', 1);
+INSERT INTO far_personas (per_id, per_cedula, per_nombre, per_apellido, per_direccion, per_telefono, per_correo, per_tipo, per_estado)
+VALUES (seq_per_id.NEXTVAL, '1909764312', 'Emma', 'Watson', '456 Abbey Rd', '987-654-3210', 'emma.watson@example.com', 'e', 1);
+INSERT INTO far_personas (per_id, per_cedula, per_nombre, per_apellido, per_direccion, per_telefono, per_correo, per_tipo, per_estado)
+VALUES (seq_per_id.NEXTVAL, '1907776221', 'Tom', 'Hardy', '789 Carnaby St', '456-789-0123', 'tom.hardy@example.com', 'e', 1);
+INSERT INTO far_personas (per_id, per_cedula, per_nombre, per_apellido, per_direccion, per_telefono, per_correo, per_tipo, per_estado)
+VALUES (seq_per_id.NEXTVAL, '1909831209', 'Keira', 'Knightley', '567 Piccadilly Cir', '789-012-3456', 'keira.knightley@example.com', 'c', 1);
+INSERT INTO far_personas (per_id, per_cedula, per_nombre, per_apellido, per_direccion, per_telefono, per_correo, per_tipo, per_estado)
+VALUES (seq_per_id.NEXTVAL, '1093211267', 'Idris', 'Elba', '901 Oxford St', '567-890-1234', 'idris.elba@example.com', 'c', 1);
+
+------------------------------------USUARIOS-----------------------------------
+INSERT INTO far_usuarios (usu_id, usu_nombre, usu_contrasena, usu_tipo, FAR_PERSONAS_PER_ID)
+VALUES (seq_usu_id.NEXTVAL, 'Empleado1', 'emple1', 'E', 8);
+
+-- Insert data for Usuario 2
+INSERT INTO far_usuarios (usu_id, usu_nombre, usu_contrasena, usu_tipo, far_personas_per_id)
+VALUES (seq_usu_id.NEXTVAL, 'Administrador', 'admin1', 'A', 7);
+
+--SELECT usu_id, usu_nombre AS usu_username, usu_contrasena, usu_tipo, per_cedula, per_nombre || ' ' || per_apellido AS nombre 
+--FROM far_usuarios
+--JOIN far_personas ON far_usuarios.far_personas_per_id = far_personas.per_id
+--ORDER BY usu_id ASC;
+
+--SELECT prov_nombre, prov_ruc, SYSDATE as fecha FROM YCDAN.far_proveedores WHERE prov_nombre = 'STERN VITAMIN';
+SELECT prov_nombre, prov_ruc, TRUNC(SYSDATE) as fecha FROM YCDAN.far_proveedores WHERE prov_nombre = 'ALIMENTOS SANIMEX';
+
+UPDATE far_personas 
+SET per_cedula = ?, per_nombre = ? per_apellido = ?,per_direccion = ?,per_telefono = per_correo = ?, per_estado = ? 
+WHERE per_cedula = 1752773522;
+
+

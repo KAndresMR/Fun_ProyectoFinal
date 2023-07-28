@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9064C5D-1D80-989A-9053-D5561EF55727" name="FAR_PERSONAS">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:37:57 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="per_id" id="9F502FD4-58F2-5557-EC68-DAEBF74AD338">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:38:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero de identificacion de la entidad.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per_cedula" id="28189677-4B63-A66C-0F90-B266D1A57F50">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:38:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero de cedula de la persona.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per_nombre" id="04A87A86-107A-64B4-4143-B06B3BB3226C">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:38:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la persona.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per_apellido" id="055C971E-C066-FF6F-05E0-C25AE455E349">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:38:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Apellidos de la persona.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per_direccion" id="3B1F00CF-CA71-A84C-AC15-DE7F42CF52A0">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:39:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Direccion de residencia de la persona.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per_telefono" id="98AE251B-1C19-6BEA-AB78-ED062A85E3B7">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:39:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero de telefeno convencional o celular  de la persona.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per_correo" id="CE436CAE-09DF-E499-6F08-C9318D652781">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:39:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Correo electronico de la persona.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per_tipo" id="5EACEB6A-1204-068B-F97E-9D50CAB3F371">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-07-08 23:05:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el tipo de usuario si es Cliente (c), si es Empleado (e)]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per_estado" id="10C1295D-79BF-01BA-19BF-F2D7F364C484">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-07-08 23:21:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Registra el estado de la persona: En caso de estar activo (1), caso contrario estará desactivado (0)]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9F2FD4A-8FD4-C837-E049-0BE6408320CA" name="FAR_CLIENTES PK">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:38:13 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F502FD4-58F2-5557-EC68-DAEBF74AD338</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

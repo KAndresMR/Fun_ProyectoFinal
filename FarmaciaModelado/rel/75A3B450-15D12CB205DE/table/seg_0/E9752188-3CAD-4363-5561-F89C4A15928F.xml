@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9752188-3CAD-4363-5561-F89C4A15928F" name="FAR_PROVEEDORES">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>9F1E010B-B160-8535-765B-A00FC642BA61</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prov_id" id="CFC74C25-1B7D-0EDD-4185-262CBA096CAB">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero unico de la entidad.]]></commentInRDBMS>
+<generatorID>7A21262C-DE61-46BF-8B00-60F136EA150D</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prov_nombre" id="21594655-3F5F-A835-7A56-0FF1F2CF851F">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del proveeodr]]></commentInRDBMS>
+<generatorID>85D43E84-FACD-ACF1-85FE-45B7592D1075</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prov_ruc" id="4A95F789-85C0-6654-C744-76DB22667EAF">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero de ruc de la empresa proveedor]]></commentInRDBMS>
+<generatorID>14FF7491-FE8F-9101-2A3E-29B3093F5B4D</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2EFAB6AD-DF92-1832-FBA1-FAAE11817152" name="FAR_PROVEEDORES_PK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>DC3D177F-A8FC-A115-B29A-7FDF963FF702</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFC74C25-1B7D-0EDD-4185-262CBA096CAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FarmaciaModelado" id="7DAC36FF-BF46-6EE7-93D0-6CE4A4F65415" version="3.5">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:04:48 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7DAC36FF-BF46-6EE7-93D0-6CE4A4F65415</designId>
+</OSDM_Design>

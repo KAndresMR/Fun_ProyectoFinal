@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A47BBAB-D691-6ED4-EEFA-97C2A7A1008F" name="FAR_DETALLE_FACTURA">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:15:05 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="det_id" id="CE66A18F-734A-FD47-EA81-8D0501A4E19D">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:15:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el codigo unico de la entidad.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="det_cantidad" id="AC0EF801-A9A1-7AF5-EA66-B52EFD1041C2">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:15:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cantidad de productos adquiridos.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="det_precioUnitario" id="9C767132-C1AA-CAE9-5270-6100712904AB">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:17:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el precio unitario de cada producto.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="det_subtotal" id="D5CBDD38-C35E-5CD6-8F25-F27FE82CB031">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:17:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el subtotal de los productos adquiridos.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="det_IVA" id="AA40907E-1426-E9E5-6A3B-7C7517A0E122">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:18:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el IVA del producto
+En caso de no tener iva, el valor debe de ser 0]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="det_total" id="5FC5575E-257C-47EB-D52F-A32B58ACA5BE">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:18:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registar el total del detalle de la factura.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fac_id" id="1FB80727-089F-FB7D-A09C-AB9853D3C463">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 21:58:15 UTC</createdTime>
+<generatorID>AFC237D4-F9A2-B077-DC18-12E84B006559</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<referedAttribute>BE85E1AE-81A3-D60A-F3E4-35191A312E32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_id" id="A299D81C-B391-AB1A-4FB1-EAAD9D0A660D">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-07-08 23:37:56 UTC</createdTime>
+<generatorID>EC923A91-51A9-D1A1-4156-FB4CCFA84B8E</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<referedAttribute>745BABA1-946F-161F-B4B5-4D28AB0A3070</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22ED881C-C779-B36F-71F1-D33EEE104635" name="FAR_DETALLE_FACTURA PK">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:15:24 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE66A18F-734A-FD47-EA81-8D0501A4E19D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

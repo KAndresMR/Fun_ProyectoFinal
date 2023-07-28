@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F77C0C8F-382B-1CA1-EDAE-D36944251FA7" name="FAR_USUARIOS">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:40:37 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="usu_id" id="29EC8EB8-ECF6-A2E9-CB9C-E23EE2873B79">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:40:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico del usuario]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usu_nombre" id="D70A5315-6F7C-6862-E460-24B67D533FF2">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:41:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el nombre de usuario]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usu_contrasena" id="8C4AEED0-0FCF-9586-FE97-DC1AA516B6F7">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:41:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra la contraseña del usuario.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usu_tipo" id="E4654F55-75D8-19D2-B747-E79DF6AABC25">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 21:11:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el tipo de usuario si es Empleado General(E) o Administrador(A).]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per_id" id="97C09C07-B1C4-E4F4-7029-38916CF163F8">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:41:47 UTC</createdTime>
+<generatorID>EDB40CC0-77E7-4606-B6A1-1900B35E0075</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<referedAttribute>9F502FD4-58F2-5557-EC68-DAEBF74AD338</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BDECD859-A57F-0253-AB42-D59DDF71F469" name="FAR_USUARIOS PK">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-29 18:41:00 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>29EC8EB8-ECF6-A2E9-CB9C-E23EE2873B79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

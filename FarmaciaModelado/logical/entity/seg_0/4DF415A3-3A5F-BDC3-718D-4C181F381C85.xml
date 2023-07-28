@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DF415A3-3A5F-BDC3-718D-4C181F381C85" name="FAR_CABECERA_FACTURA">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:10:38 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fac_id" id="BE85E1AE-81A3-D60A-F3E4-35191A312E32">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:10:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico de la entidad Cabecera de factura.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fac_numero" id="C0E60DDF-AEE9-7683-E389-5F0BEFA68A0C">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:11:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el numero de factura correspondiente]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fac_fecha" id="A88B9FEC-CD2A-E549-FFC1-BCA428BA3498">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:10:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra la fecha de emison de la factura.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fac_subtotal" id="D298FF47-4C72-54D2-6862-66D13B99A127">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:12:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el subtotal de la factura.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fac_total_IVA" id="772D40E7-5C49-53CC-9B33-48B18AAC9DB3">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:13:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el IVA total de la factura.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fac_total" id="552C33E2-F97A-8091-3A4D-D0CFCD15A162">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:14:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el total de la factura.]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fac_estado" id="9BED3964-A21A-A7F5-A786-74313B3E4EAE">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-07-08 23:23:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Registra el estado de la factura : En caso de estar vigente (1) en caso contrario, estará anulado (0)]]></commentInRDBMS>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usu_id" id="35499117-0CBB-B23A-62B4-F32A1D4ADE15">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 22:07:05 UTC</createdTime>
+<generatorID>777CB6B6-B73B-28C1-9B63-0F53A487236D</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<referedAttribute>29EC8EB8-ECF6-A2E9-CB9C-E23EE2873B79</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per_id" id="EDB458A8-F833-B0CA-5FFB-841AC2BC003C">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-07-01 22:07:59 UTC</createdTime>
+<generatorID>B777CE1D-8AA6-8F07-BEAA-F12C3ED82731</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<referedAttribute>9F502FD4-58F2-5557-EC68-DAEBF74AD338</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="087E0772-7F1E-A82B-108A-9199B2F2BD6B" name="FAR_CABECERA_FACTURA PK">
+<createdBy>andresmorocho</createdBy>
+<createdTime>2023-06-30 05:10:57 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE85E1AE-81A3-D60A-F3E4-35191A312E32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

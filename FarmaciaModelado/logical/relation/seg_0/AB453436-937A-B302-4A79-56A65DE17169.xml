@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pro_not_fk" directorySegmentName="seg_0" id="AB453436-937A-B302-4A79-56A65DE17169">
+<createdBy>ASUS</createdBy>
+<createdTime>2023-07-09 00:08:53 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<engineerTo>
+<item key="75A3B450-4240-087F-ABFC-15D12CB205DE" value="true"/>
+</engineerTo>
+<sourcePk>847D25C3-CAB8-AB7A-D8CF-9E5787CEA973</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>pertenecer</nameOnSource>
+<nameOnTarget>tener</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0EB10B5A-60FB-6DF8-CD58-4E863BDDC4C3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A95A4E7E-D7EC-78FB-2700-FC4A4BD4B432</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

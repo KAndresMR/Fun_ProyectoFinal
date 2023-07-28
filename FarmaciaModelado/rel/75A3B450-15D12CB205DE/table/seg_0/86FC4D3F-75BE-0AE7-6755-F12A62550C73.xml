@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86FC4D3F-75BE-0AE7-6755-F12A62550C73" name="FAR_CATEGORIAS">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>956292F3-204A-5343-A2AF-76B3E86D66DC</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cat_id" id="C3B0C88D-87F4-9C48-ECDB-D29FD55DEC7D">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico de la entidad.]]></commentInRDBMS>
+<generatorID>A5AC3EF4-5E50-5450-2986-BB58B7A0C163</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cat_descripcion" id="09FF7D59-627F-0CDC-2CA4-28EA19CA01F3">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripcion de la categoria.]]></commentInRDBMS>
+<generatorID>755F2BF9-7178-F435-6F95-C1469686B20C</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cat_nombre" id="0DC74341-C795-41B2-924E-35DFE2DD8EEE">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la categoria.]]></commentInRDBMS>
+<generatorID>72DD1B99-2A41-EA7E-C5CB-F11DA8AB1DCE</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A78F75B-4FE7-5C0C-D795-2A4CB423B873" name="FAR_CATEGORIAS_PK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>581D18E4-0DE4-B228-B2FF-634C24EAC4E8</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3B0C88D-87F4-9C48-ECDB-D29FD55DEC7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

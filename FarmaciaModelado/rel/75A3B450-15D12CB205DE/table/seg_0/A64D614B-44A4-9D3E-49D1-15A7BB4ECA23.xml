@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A64D614B-44A4-9D3E-49D1-15A7BB4ECA23" name="FAR_CABECERA_FACTURA">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>4DF415A3-3A5F-BDC3-718D-4C181F381C85</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fac_id" id="8EF0D718-BF59-9076-D7C6-9D1DC7EC602F">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico de la entidad Cabecera de factura.]]></commentInRDBMS>
+<generatorID>BE85E1AE-81A3-D60A-F3E4-35191A312E32</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fac_numero" id="0492D603-9646-317E-8D30-EEC5FEBA1E22">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el numero de factura correspondiente]]></commentInRDBMS>
+<generatorID>C0E60DDF-AEE9-7683-E389-5F0BEFA68A0C</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fac_fecha" id="C5851A41-B060-1A8E-A173-9436E32B65E1">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra la fecha de emison de la factura.]]></commentInRDBMS>
+<generatorID>A88B9FEC-CD2A-E549-FFC1-BCA428BA3498</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fac_subtotal" id="620C9AD7-FFE3-0282-E5F5-378EF7AB7962">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el subtotal de la factura.]]></commentInRDBMS>
+<generatorID>D298FF47-4C72-54D2-6862-66D13B99A127</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fac_total_IVA" id="59DF7CFD-533E-911B-0532-7944010DA141">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el IVA total de la factura.]]></commentInRDBMS>
+<generatorID>772D40E7-5C49-53CC-9B33-48B18AAC9DB3</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fac_total" id="6497BBAC-EBB7-A2ED-7945-7DA02F63B044">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el total de la factura.]]></commentInRDBMS>
+<generatorID>552C33E2-F97A-8091-3A4D-D0CFCD15A162</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fac_estado" id="F0CB3E44-9F31-C3ED-626E-48B88CE103AF">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Registra el estado de la factura : En caso de estar vigente (1) en caso contrario, estará anulado (0)]]></commentInRDBMS>
+<generatorID>9BED3964-A21A-A7F5-A786-74313B3E4EAE</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAR_USUARIOS_usu_id" id="707C4C62-B767-ED16-B411-1653CB04AB59">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>35499117-0CBB-B23A-62B4-F32A1D4ADE15</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59B32CF9-3A6F-EBFB-8623-072F0C9CF7D8" referredColumn="732E1C81-48A7-4D49-0FC6-1A7B88193C55"/>
+</associations>
+</Column>
+<Column name="FAR_PERSONAS_per_id" id="4A2EF1CF-7139-F91C-FF16-45A2B6C85CD1">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>EDB458A8-F833-B0CA-5FFB-841AC2BC003C</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="486804F2-B327-219E-D453-DEBCFF397EF3" referredColumn="F7715BF5-C927-7D42-A333-5BB4A91E8C8E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F28366C1-5B1F-BA98-5673-59DBAE327E1F" name="FAR_CABECERA_FACTURA_PK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>087E0772-7F1E-A82B-108A-9199B2F2BD6B</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EF0D718-BF59-9076-D7C6-9D1DC7EC602F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE4B649D-F9AC-0072-3EB4-F7D22D88BDFD" name="FAR_CABECERA_FACTURA_FAR_PERSONAS_FK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>B777CE1D-8AA6-8F07-BEAA-F12C3ED82731</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A2EF1CF-7139-F91C-FF16-45A2B6C85CD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB4A8CB0-E3A2-2197-B954-06D7CB619263" name="FAR_CABECERA_FACTURA_FAR_USUARIOS_FK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>777CB6B6-B73B-28C1-9B63-0F53A487236D</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="707C4C62-B767-ED16-B411-1653CB04AB59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

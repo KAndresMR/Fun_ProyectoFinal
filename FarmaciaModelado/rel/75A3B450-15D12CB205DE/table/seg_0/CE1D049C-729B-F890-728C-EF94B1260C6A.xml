@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE1D049C-729B-F890-728C-EF94B1260C6A" name="FAR_USUARIOS">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>F77C0C8F-382B-1CA1-EDAE-D36944251FA7</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usu_id" id="732E1C81-48A7-4D49-0FC6-1A7B88193C55">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico del usuario]]></commentInRDBMS>
+<generatorID>29EC8EB8-ECF6-A2E9-CB9C-E23EE2873B79</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_nombre" id="F3F311BF-CCD4-0385-A864-7503F1CF71C0">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el nombre de usuario]]></commentInRDBMS>
+<generatorID>D70A5315-6F7C-6862-E460-24B67D533FF2</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_contrasena" id="44ACF69D-226A-C174-733C-FC013BB6D7F9">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra la contraseña del usuario.]]></commentInRDBMS>
+<generatorID>8C4AEED0-0FCF-9586-FE97-DC1AA516B6F7</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usu_tipo" id="9BFEC143-9ED7-AC40-E8E7-2695725B8227">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Se registra el tipo de usuario si es Empleado General(E) o Administrador(A).]]></commentInRDBMS>
+<generatorID>E4654F55-75D8-19D2-B747-E79DF6AABC25</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAR_PERSONAS_per_id" id="C0A6B364-C3E1-10EF-6F35-11B0C6834D4A">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>97C09C07-B1C4-E4F4-7029-38916CF163F8</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCCB074A-380E-EE1F-F02C-891B161D94EB" referredColumn="F7715BF5-C927-7D42-A333-5BB4A91E8C8E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0D0410D-5A66-F4D7-DE42-BE281A5D3BD8" name="FAR_USUARIOS_PK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>BDECD859-A57F-0253-AB42-D59DDF71F469</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="732E1C81-48A7-4D49-0FC6-1A7B88193C55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5426EB46-0F54-07E4-EA4C-E2CC00053BC6" name="FAR_USUARIOS__IDX">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EDB40CC0-77E7-4606-B6A1-1900B35E0075</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C0A6B364-C3E1-10EF-6F35-11B0C6834D4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1494E99-A1B3-91C0-1FE7-E5A98665FC4E" name="FAR_USUARIOS_FAR_PERSONAS_FK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>EDB40CC0-77E7-4606-B6A1-1900B35E0075</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0A6B364-C3E1-10EF-6F35-11B0C6834D4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

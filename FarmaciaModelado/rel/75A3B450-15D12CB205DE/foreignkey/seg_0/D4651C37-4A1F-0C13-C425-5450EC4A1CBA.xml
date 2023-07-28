@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D4651C37-4A1F-0C13-C425-5450EC4A1CBA" containerWithKeyObject="AB70A706-FBBA-0516-B9E4-367B17EF3E6D" localFKIndex="E8092AAF-62C3-D6AA-824D-0C40A69430FE" name="FAR_NOTA_VENTAS_FAR_PROVEEDORES_FK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>9319829E-5BE0-C907-D909-FB864FC891FF</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<referredTableLongName>FAR_PROVEEDORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E9752188-3CAD-4363-5561-F89C4A15928F</referredTableID>
+<keyObject>2EFAB6AD-DF92-1832-FBA1-FAAE11817152</keyObject>
+<referredKeyID>2EFAB6AD-DF92-1832-FBA1-FAAE11817152</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>prov_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

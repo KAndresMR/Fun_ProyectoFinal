@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E56B59B-F27C-B87B-CA0B-20CDFA7FA243" name="FAR_PRODUCTOS">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>0EB10B5A-60FB-6DF8-CD58-4E863BDDC4C3</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pro_id" id="4DC94453-6E72-4415-ECEC-C8FD0DE6D638">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico de la entidad.]]></commentInRDBMS>
+<generatorID>745BABA1-946F-161F-B4B5-4D28AB0A3070</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_codigo_barra" id="88ED9CC1-DB10-203B-7052-AFD3B375F5B5">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo de barras del producto]]></commentInRDBMS>
+<generatorID>22A0D7A8-C0A9-1BEF-2F14-205ED2805000</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_nombre" id="2A146389-4FDB-01E8-B052-1B91F1D82D96">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del producto.]]></commentInRDBMS>
+<generatorID>AE80E1E8-0476-8C81-B7DE-E2AC1DC6346D</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_precio" id="6032E88D-7AB2-D90F-C813-AF1E49A3D52E">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Precio unitario del producto.]]></commentInRDBMS>
+<generatorID>6BB0A2D9-6F5E-CC85-95D1-71D978B3F77A</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_stock" id="E311332D-77AB-CB11-C485-275426F0D26A">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cantidad de producto disponibles.]]></commentInRDBMS>
+<generatorID>D53D5F20-D60B-BD97-CFB7-63953B729598</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_IVA" id="25D4B548-CC0C-2051-EEC5-86C8AD8097B4">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Si el producto tiene IVA(S)
+Si el producto no tiene IVA (N)]]></commentInRDBMS>
+<generatorID>2DD922CD-B7FD-7C40-8FCF-CF850A579A5F</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAR_CATEGORIAS_cat_id" id="BEFA24BD-A64B-2ADD-864D-1BDA520F32B9">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>C07A0AC8-065F-E602-C974-ADF3E0514405</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="855977CE-930F-82D1-2098-E4D9DA9065A2" referredColumn="C3B0C88D-87F4-9C48-ECDB-D29FD55DEC7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5AFA0C1-5680-F680-E74B-B8092BEF73FD" name="FAR_PRODUCTOS_PK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>847D25C3-CAB8-AB7A-D8CF-9E5787CEA973</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DC94453-6E72-4415-ECEC-C8FD0DE6D638"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="940E55AE-0C51-8792-FBB7-E2A7A006A030" name="FAR_PRODUCTOS_FAR_CATEGORIAS_FK">
+<createdBy>danie</createdBy>
+<createdTime>2023-07-18 20:49:17 UTC</createdTime>
+<generatorID>A6085494-B3ED-FF79-539C-5ED3A2DCA61F</generatorID>
+<ownerDesignName>FarmaciaModelado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEFA24BD-A64B-2ADD-864D-1BDA520F32B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
